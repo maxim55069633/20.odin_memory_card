@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import CardZone from "./components/CardZone";
+import ScoreZone from "./components/ScoreZone";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App =()=> {
+
+
+  const [current_score, setCurrentScore] = useState(0);
+
+  return ( 
+    <div>
+      <h1>Memory Card</h1>
+      <ScoreZone current_score={current_score}></ScoreZone>
+      <CardZone current_score={current_score} setCurrentScore={setCurrentScore}></CardZone>
     </div>
   );
 }
