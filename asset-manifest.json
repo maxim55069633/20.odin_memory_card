@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/20.odin_memory_card/static/css/main.5f115b23.css",
+    "main.js": "/20.odin_memory_card/static/js/main.7698aef7.js",
+    "static/media/pig.png": "/20.odin_memory_card/static/media/pig.94d1d505522a4226c1de.png",
+    "static/media/dragon.jpeg": "/20.odin_memory_card/static/media/dragon.0d329a7c250cd0c6b2b0.jpeg",
+    "static/media/ox.png": "/20.odin_memory_card/static/media/ox.773be39dd075e25f52c0.png",
+    "static/media/rooster.jpeg": "/20.odin_memory_card/static/media/rooster.5a116b3689a23803fe22.jpeg",
+    "static/media/rat.jpg": "/20.odin_memory_card/static/media/rat.a13329324952c9619942.jpg",
+    "static/media/horse.jpg": "/20.odin_memory_card/static/media/horse.e41445a5a98429f38440.jpg",
+    "static/media/rabbit.jpg": "/20.odin_memory_card/static/media/rabbit.3afe0b7e78b75c8ee5a8.jpg",
+    "static/media/snake.jpg": "/20.odin_memory_card/static/media/snake.e0619bbfaeac9c64580f.jpg",
+    "static/media/tiger.jpeg": "/20.odin_memory_card/static/media/tiger.60c7927238ec1b689bfb.jpeg",
+    "static/media/goat.jpeg": "/20.odin_memory_card/static/media/goat.f2794b1900fd4f9fa50f.jpeg",
+    "static/media/dog.jpeg": "/20.odin_memory_card/static/media/dog.1a616dd836f5d476d47a.jpeg",
+    "static/media/monkey.jpg": "/20.odin_memory_card/static/media/monkey.e8cef0875d5cff3a8536.jpg",
+    "index.html": "/20.odin_memory_card/index.html",
+    "main.5f115b23.css.map": "/20.odin_memory_card/static/css/main.5f115b23.css.map",
+    "main.7698aef7.js.map": "/20.odin_memory_card/static/js/main.7698aef7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f115b23.css",
+    "static/js/main.7698aef7.js"
+  ]
+}
