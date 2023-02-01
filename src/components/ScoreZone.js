@@ -1,14 +1,20 @@
 import { useState } from "react";
 
 const ScoreZone = (props)=>{
-    const [best_score, setBestScore] = useState(0);
 
-    if(best_score < Number(props.current_score))
-        setBestScore(Number(props.current_score));
+    const RestartGame = ()=>{
+        props.setGameOn(false);
+        props.setCurrentScore(0);
+    }
+
+    if(props.best_score < Number(props.current_score)){
+        props.setBestScore(Number(props.current_score));
+    }
 
     return (<div className="score-zone">
+        <button onClick={RestartGame}>Restart</button>
         <span>Current Score: {Number(props.current_score)}</span> 
-        <span>Best Score: {best_score}</span>
+        <span>Best Score: {Number(props.best_score)}</span>
         </div>);
 }
 

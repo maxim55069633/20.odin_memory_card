@@ -77,7 +77,11 @@ const CardZone = (props)=>{
                 {
                     props.setCurrentScore(Number(event.currentTarget.id));
                     setNew_array ( shuffle(initial_display));
-                } else {
+                    if (Number(event.currentTarget.id) == 12){
+                        alert("Bravo! You memorize the complete order.");
+                    }
+                } else
+                {
                     props.setCurrentScore(0);
                     setNew_array(initial_display);
                     alert("New Game!");

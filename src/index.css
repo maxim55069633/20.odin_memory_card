@@ -2,12 +2,28 @@ h1{
     text-align: center;
 }
 
+.description{
+    padding: 15px;
+    font-size: 30px;
+}
+
+.description>button{
+    font-size: 30px;
+    padding: 5px;
+}
+
 .score-zone{
     font-size: 35px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 
-    padding: 8px;
+    padding: 15px;
+}
+
+.score-zone>button{
+    font-size: 30px;
+    padding: 5px;
 }
 
 .card-zone{
